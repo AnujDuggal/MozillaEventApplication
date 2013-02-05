@@ -555,3 +555,5 @@ AddCharset utf-8 .css .js .xml .json .rss .atom
 <IfModule php5_module>
   php_value session.cookie_httponly true
 </IfModule>
+AddType application/x-web-app-manifest+json .webapp
+AddHandler x-web-app-manifest+json .webapp
